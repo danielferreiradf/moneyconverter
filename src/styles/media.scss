@@ -1,0 +1,15 @@
+@media (max-width: 620px) {
+    .converter__options {
+        display: flex;
+        // justify-content: flex-end;
+        // align-items: flex-start;
+    }
+    .converter__select {
+        margin: 20px ;
+        // margin-right: 10%// margin: 40px 20% 40px 0px;
+    }
+    .converter__logo {
+        max-width: 350px;
+    }
+
+}

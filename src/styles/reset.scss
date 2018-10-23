@@ -1,0 +1,16 @@
+*,*::after,*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+html { font-size: 62.5%; }
+body { box-sizing: border-box;}
+button,input,textarea { border-radius: 0; }
+ul { list-style-type: none; }
+a { text-decoration: none; }
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
