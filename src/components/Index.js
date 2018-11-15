@@ -43,16 +43,12 @@ class Index extends Component {
 
 
     calculateResult = () => {
-        const baseValue = parseInt(this.state.amount);
+        const baseValue = this.state.amount;
         const countValue = this.state.data[this.state.to];
         this.setState({ total: ((baseValue * countValue).toFixed(2)), showResult: true })
 
         console.log(baseValue, countValue)
     }
-
-
-
-
 
     render() {
         console.log(this.state.query)
